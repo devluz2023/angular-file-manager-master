@@ -1,0 +1,7 @@
+services:
+  
+  webapp-dev-file:
+    container_name: webapp-dev-file
+    hostname: webapp-dev-file
+    build: 
+     dockerfile: Dockerfile.dev
